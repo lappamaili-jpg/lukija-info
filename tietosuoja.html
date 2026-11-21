@@ -13,7 +13,7 @@
 
 <section lang="fi">
 <h1>Tietosuojaseloste</h1>
-<p class="pvm">Päivitetty 12.11.2026</p>
+<p class="pvm">Päivitetty 21.11.2026</p>
 
 <h2>Mitä tietoja Lukija käsittelee</h2>
 <ul>
@@ -24,11 +24,11 @@
   <li>Sovelluksen oma kansio (<code>drive.appdata</code>): Lukija tallentaa lukukohdat Driven piilotettuun sovelluskansioon, jotta ne siirtyvät laitteelta toiselle. Kansio ei näy Driven tiedostoissa, eivätkä muut sovellukset näe sitä.</li>
   </ul>
 </li>
-<li><strong>Ääneen luku</strong> käyttää puhelimeen asennettua puhesynteesiä (esimerkiksi Googlen puhepalvelut), jonka tietosuojasta vastaa sen tarjoaja.</li>
+<li><strong>Ääneen luku</strong> käyttää oletuksena puhelimeen asennettua puhesynteesiä (esimerkiksi Googlen puhepalvelut), jonka tietosuojasta vastaa sen tarjoaja. Valinnaisesti voit ottaa käyttöön <strong>Mistralin pilviäänen</strong> (Voxtral): silloin luettava teksti lähetetään Mistralin EU-päätepisteeseen (api.mistral.ai) muunnettavaksi ääneksi. Käytät omaa API-avaintasi, joka tallennetaan vain puhelimeesi, eikä tekstiä säilytetä (zero retention). Pilviäänen voi poistaa käytöstä milloin tahansa vaihtamalla lähteeksi järjestelmän äänen.</li>
 </ul>
 
 <h2>Mihin tietoja lähetetään</h2>
-<p>Lukija ottaa yhteyttä vain Googlen Drive-rajapintaan (googleapis.com) omalla Google-tililläsi. Tietoja ei lähetetä sovelluksen tekijälle eikä kolmansille osapuolille. Sovelluksessa ei ole mainoksia, analytiikkaa eikä virheraportointia.</p>
+<p>Lukija ottaa yhteyttä vain Googlen Drive-rajapintaan (googleapis.com) omalla Google-tililläsi ja, jos olet ottanut pilviäänen käyttöön, Mistralin ääntenluontirajapintaan (api.mistral.ai) omalla API-avaimellasi. Tietoja ei lähetetä sovelluksen tekijälle eikä muille kolmansille osapuolille. Sovelluksessa ei ole mainoksia, analytiikkaa eikä virheraportointia.</p>
 
 <h2>Google-käyttäjätietojen käyttö</h2>
 <p>Lukijan tapa käyttää ja siirtää Googlen rajapinnoista saatuja tietoja noudattaa <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a> -käytäntöä, mukaan lukien Limited Use -vaatimukset.</p>
@@ -46,7 +46,7 @@
 
 <section lang="en" id="en">
 <h1>Privacy policy</h1>
-<p class="pvm">Updated 12 November 2026</p>
+<p class="pvm">Updated 21 November 2026</p>
 
 <h2>What data Lukija handles</h2>
 <ul>
@@ -57,11 +57,11 @@
   <li>App data folder (<code>drive.appdata</code>): Lukija stores reading positions in Drive's hidden app folder so they carry over between devices. The folder is not shown among your Drive files, and other apps cannot see it.</li>
   </ul>
 </li>
-<li><strong>Read-aloud</strong> uses the text-to-speech engine installed on the phone (for example Google's speech services), whose privacy is the responsibility of its provider.</li>
+<li><strong>Read-aloud</strong> uses by default the text-to-speech engine installed on the phone (for example Google's speech services), whose privacy is the responsibility of its provider. Optionally you can enable <strong>Mistral's cloud voice</strong> (Voxtral): the text being read is then sent to Mistral's EU endpoint (api.mistral.ai) to be turned into speech. You use your own API key, which is stored only on the phone, and the text is not retained (zero retention). You can disable the cloud voice at any time by switching back to the system voice.</li>
 </ul>
 
 <h2>Where data is sent</h2>
-<p>Lukija only connects to Google's Drive API (googleapis.com) with your own Google account. No data is sent to the app's author or to third parties. The app has no ads, analytics or crash reporting.</p>
+<p>Lukija only connects to Google's Drive API (googleapis.com) with your own Google account and, if you have enabled the cloud voice, to Mistral's speech API (api.mistral.ai) with your own API key. No data is sent to the app's author or other third parties. The app has no ads, analytics or crash reporting.</p>
 
 <h2>Use of Google user data</h2>
 <p>Lukija's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
