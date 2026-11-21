@@ -24,7 +24,7 @@
   <li>Sovelluksen oma kansio (<code>drive.appdata</code>): Lukija tallentaa lukukohdat Driven piilotettuun sovelluskansioon, jotta ne siirtyvät laitteelta toiselle. Kansio ei näy Driven tiedostoissa, eivätkä muut sovellukset näe sitä.</li>
   </ul>
 </li>
-<li><strong>Ääneen luku</strong> käyttää oletuksena puhelimeen asennettua puhesynteesiä (esimerkiksi Googlen puhepalvelut), jonka tietosuojasta vastaa sen tarjoaja. Valinnaisesti voit ottaa käyttöön <strong>Mistralin pilviäänen</strong> (Voxtral): silloin luettava teksti lähetetään Mistralin EU-päätepisteeseen (api.mistral.ai) muunnettavaksi ääneksi. Käytät omaa API-avaintasi, joka tallennetaan vain puhelimeesi, eikä tekstiä säilytetä (zero retention). Pilviäänen voi poistaa käytöstä milloin tahansa vaihtamalla lähteeksi järjestelmän äänen.</li>
+<li><strong>Ääneen luku</strong> käyttää oletuksena puhelimeen asennettua puhesynteesiä (esimerkiksi Googlen puhepalvelut), jonka tietosuojasta vastaa sen tarjoaja. Valinnaisesti voit ottaa käyttöön <strong>Mistralin pilviäänen</strong> (Voxtral): silloin luettava teksti lähetetään Mistralin EU-päätepisteeseen (api.mistral.ai) muunnettavaksi ääneksi. Käytät omaa API-avaintasi, joka tallennetaan vain puhelimeesi, eikä tekstiä säilytetä (zero retention). Pilviäänen voi poistaa käytöstä milloin tahansa vaihtamalla lähteeksi järjestelmän äänen. Vaihtoehtoisesti ääneen luku voi käyttää <strong>omaa paikallista äänimallia</strong> (avoin Piper/sherpa-onnx -malli puhelimessa), joka toimii täysin ilman verkkoa eikä lähetä tekstiä minnekään.</li>
 </ul>
 
 <h2>Mihin tietoja lähetetään</h2>
@@ -57,7 +57,7 @@
   <li>App data folder (<code>drive.appdata</code>): Lukija stores reading positions in Drive's hidden app folder so they carry over between devices. The folder is not shown among your Drive files, and other apps cannot see it.</li>
   </ul>
 </li>
-<li><strong>Read-aloud</strong> uses by default the text-to-speech engine installed on the phone (for example Google's speech services), whose privacy is the responsibility of its provider. Optionally you can enable <strong>Mistral's cloud voice</strong> (Voxtral): the text being read is then sent to Mistral's EU endpoint (api.mistral.ai) to be turned into speech. You use your own API key, which is stored only on the phone, and the text is not retained (zero retention). You can disable the cloud voice at any time by switching back to the system voice.</li>
+<li><strong>Read-aloud</strong> uses by default the text-to-speech engine installed on the phone (for example Google's speech services), whose privacy is the responsibility of its provider. Optionally you can enable <strong>Mistral's cloud voice</strong> (Voxtral): the text being read is then sent to Mistral's EU endpoint (api.mistral.ai) to be turned into speech. You use your own API key, which is stored only on the phone, and the text is not retained (zero retention). You can disable the cloud voice at any time by switching back to the system voice. Alternatively, read-aloud can use <strong>your own local voice model</strong> (an open Piper/sherpa-onnx model on the phone), which works fully offline and sends no text anywhere.</li>
 </ul>
 
 <h2>Where data is sent</h2>
